@@ -1,8 +1,8 @@
-#imports
+# imports
 import time
 import math
 
-#parameters
+# parameters
 seed = int(round(time.time() * 1000))
 multiplier = 25214903917
 increment = 11
@@ -26,13 +26,13 @@ def randomIntRange(min, max): # custom range
 def randomFloatRange(min, max): # custom range
     return (min + randomFloat() * (max - min))
 
-def randomBool(chance): #chance of getting true
+def randomBool(chance): # chance of getting true
     if(chance == 0):
         chance = 0.5
     return (randomFloat() < chance)
 
 
-#execute functions
+# execute functions
 print("Sequence of Random Integers between 0 and the Modulus")
 print(randomInt())
 print(randomInt())
