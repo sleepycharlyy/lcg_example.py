@@ -18,10 +18,10 @@ def randomInt(): # range [0 to 2^48]
     return seed
 
 def randomFloat(): # range [0 to 1]
-    return(randomInt() / modulus)
+    return (randomInt() / modulus)
 
 def randomIntRange(min, max): # custom range
-    return math.floor(randomFloatRange(min, max))
+    return (math.floor(randomFloatRange(min, max)))
 
 def randomFloatRange(min, max): # custom range
     return (min + randomFloat() * (max - min))
@@ -29,7 +29,7 @@ def randomFloatRange(min, max): # custom range
 def randomBool(chance): #chance of getting true
     if(chance == 0):
         chance = 0.5
-    return randomFloat() < chance
+    return (randomFloat() < chance)
 
 
 #execute functions
