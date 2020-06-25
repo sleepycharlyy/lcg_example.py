@@ -20,19 +20,19 @@ def randomInt(): # range [0 to 2^48]
 def randomFloat(): # range [0 to 1]
     return (randomInt() / modulus)
 
-def randomIntRange(min, max): # custom range
+def randomIntRange(min, max): # custom range [minimum, maximum]
     return (math.floor(randomFloatRange(min, max)))
 
-def randomFloatRange(min, max): # custom range
+def randomFloatRange(min, max): # custom range [minimum, maximum]
     return (min + randomFloat() * (max - min))
 
-def randomBool(chance): # chance of getting true
+def randomBool(chance): # chance of getting true (example: randomBool(20) has a 20% chance of returning true)
     if(chance == 0):
         chance = 0.5
     return (randomFloat() < chance)
 
 
-# execute functions
+# execute functions and print results
 print("Sequence of Random Integers between 0 and the Modulus")
 print(randomInt())
 print(randomInt())
