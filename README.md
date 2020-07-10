@@ -1,12 +1,12 @@
-# LCG Example Python:
+# LCG Example Python
 
 a linear congruential generator example in python. seed is generated with the current time
 
-## Video about this Topic:
+## Video about this Topic
 
 Work in progress...
 
-## Functions:
+## Functions
 
 - `randomInt()` - generates random Integer between '0' and '2^48'
 - `randomFloat()` - generates random Float between '0' and '1'
