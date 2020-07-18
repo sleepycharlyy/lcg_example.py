@@ -13,3 +13,7 @@ Work in progress...
 - `randomIntRange(min, max)` - generates random Integer between variables 'min' and 'max'
 - `randomFloatRange(min, max)` - generates random Float between variables 'min' and 'max'
 - `randomBool(Chance)` - generates random Boolean with the chance of getting true being 'chance' (Default: 0.5)
+
+## Support me
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y11Y0ET)
